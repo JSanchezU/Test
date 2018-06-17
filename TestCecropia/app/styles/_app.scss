@@ -1,0 +1,78 @@
+
+.app-logo {
+    width: 100%;
+    height: 33%;
+    margin: 7% 0;
+    background: center no-repeat;
+    background-size: initial;
+
+    td.sort-menu-container {
+        width: 84px;
+        padding-right: 4px;
+    }
+}
+
+.apps-control, .apps-control td, .apps-control tr {
+    margin: 0;
+    padding: 0;
+}
+
+.app-tile, .apps-control, .apps-control * {
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+.control-sort-menu {
+    margin: 0;
+    list-style: none;
+    position: relative;
+    padding-right: 30px;
+    text-transform: capitalize;
+
+    /*ul {
+        display: none;
+        list-style: none;
+    }*/
+}
+
+.control-elem {
+    background-color: #EFF3F6;
+    padding: .25em .75em;
+    line-height: 34px;
+    width: 7%;
+    white-space: nowrap;
+}
+
+.app-tile, .apps-control, .apps-control * {
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+.app-tile {
+    background: #fff;
+    width: calc(25% - 1.5em * .75);
+    min-width: 225px;
+    float: left;
+    margin: 1.5em 1.5em 0 0;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: calc(25% - 1.5em) 8px 0;
+    transition: all .25s,opacity 1.5s;
+    opacity: 1;
+    overflow: hidden;
+    position: relative;
+    color: #555;
+}
+
+.app-text {
+    line-height: 1.5;
+    color: #777;
+    margin-bottom: .5em;
+}
+
+.container {
+    header {
+       padding-top: 60px; 
+    }
+}
+
